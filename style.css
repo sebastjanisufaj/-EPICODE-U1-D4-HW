@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pinterest-card {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 100px;
+    box-shadow: 10px 15px 20px rgb(143, 79, 79)
+}
+
+
+
+.pinterest-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0;
+
+}
+
+.pinterest-card-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 1, 2, 0.3), rgba(5, 9, 7, 0.5));
+}
+
+.card-options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.card-option-save {
+    position: absolute;
+    top: 58px;
+    right: 44px;
+    width: 110px;
+    height: 70px;
+    background-color: rgb(212, 51, 51);
+    border-radius: 36px;
+    display: flex;
+}
+
+.card-option-save span {
+    font-weight: 600;
+    font-size: 180%;
+    margin: auto;
+    color: white;
+}
+
+.card-option-info {
+    position: absolute;
+    bottom: 36px;
+    left: 41px;
+    width: 155px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+
+}
+
+.card-option-info span {
+    font-weight: 600;
+    font-size: 153%;
+    margin-left: 10px;
+    border-top: 10px;
+    color: black;
+
+
+
+}
+
+.card-option-download {
+    position: absolute;
+    bottom: 36px;
+    left: 267px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+
+.card-option-more {
+    position: absolute;
+    bottom: 36px;
+    right: 75px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+
+.card-options:hover .card-option-save {
+    right: 500px;
+
+}
